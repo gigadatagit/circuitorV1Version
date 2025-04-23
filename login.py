@@ -45,11 +45,11 @@ def generarMenu(usuario):
         # Cargamos el rol
         rol= dfUsuario['rol'].values[0]
         #Mostramos el nombre del usuario
-        st.write(f"Hola **:blue-background[{nombre}]** ") # Mostramos el nombre del usuario con formato
+        st.write(f"Bienvenid@ **:blue-background[{nombre}]** ") # Mostramos el nombre del usuario con formato
         st.caption(f"Rol: **:red-background[{rol}]**") # Mostramos el rol del usuario
         # Mostramos los enlaces de páginas
         st.page_link("home.py", label="Inicio", icon=":material/home:") # Enlace a la página de inicio
-        st.subheader("Menú de Navegación - **:red-background[Metrel V2892]**") # Subtítulo para los tableros
+        st.subheader("Menú de Navegación - **:red-background[Circuitor VX]**") # Subtítulo para los tableros
         # Mostramos los enlaces a las páginas según el rol del usuario
         if rol in ['admin','informes']:
             st.page_link("pages/paginaCalidadEnergia.py", label="Informes | Calidad de Energía", icon=":material/add_notes:") # Enlace a la página de ventas        
@@ -115,7 +115,7 @@ def generarMenuRoles(usuario):
         rol= dfUsuario['rol'].values[0]
      
         #Mostramos el nombre del usuario
-        st.write(f"Hola **:blue-background[{nombre}]** ")
+        st.write(f"Bienvenid@ **:blue-background[{nombre}]** ")
         st.caption(f"Rol: {rol}")
         # Mostramos los enlaces de páginas        
         st.subheader("Opciones")
