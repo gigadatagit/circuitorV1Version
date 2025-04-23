@@ -16,7 +16,7 @@ from utilities import organizar_DataFrame_M_a_M, organizar_DataFrame_H_a_H, calc
 archivo = __file__.split("/")[-1]
 login.generarLogin(archivo)
 if 'usuario' in st.session_state:
-    st.header('Información | :orange[Página de Generación de Informes de Calidad de Energía]')
+    st.header('Información | :orange[Página de Generación de Informes de Cargabilidad]')
     
     uploaded_file = st.file_uploader("Elige un archivo de .TXT (Minuto a Minuto)", type=["txt"])
     uploaded_file2 = st.file_uploader("Elige un archivo de .TXT (Hora a Hora)", type=["txt"])
