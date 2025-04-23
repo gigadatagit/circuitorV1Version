@@ -1,0 +1,5 @@
+pagina,nombre,roles,icono
+home.py,Inicio,admin|informes,home
+pages\paginaCalidadEnergia.py,Informes | Calidad de Energía,admin|informes,add_notes
+pages\paginaCargabilidad.py,Informes | Cargabilidad,admin|informes,add_notes
+pages\paginaGraficosDinamicos.py,Informes | Gráficos Dinámicos,admin|informes,monitoring
